@@ -1,0 +1,1 @@
+# Terraform config placeholder for AWS Glue, S3, Redshift
