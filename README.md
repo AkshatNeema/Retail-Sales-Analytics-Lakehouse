@@ -22,4 +22,4 @@ This project demonstrates a modular data lakehouse architecture to simulate real
 ├── architecture/ → Architecture diagram
 └── README.md
 
-[sample-dashboard](https://github.com/AkshatNeema/Retail-Sales-Analytics-Lakehouse/blob/main/powerbi-dashboard/sample-dashboard.jpeg)
+![Image](https://github.com/user-attachments/assets/d6930625-3427-44fa-9b33-9fbeece5cdc8)
