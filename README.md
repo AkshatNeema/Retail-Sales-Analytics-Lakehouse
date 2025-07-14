@@ -22,4 +22,4 @@ This project demonstrates a modular data lakehouse architecture to simulate real
 ├── architecture/ → Architecture diagram
 └── README.md
 
-[sample-dashboard](https://github.com/user-attachments/assets/d6f0f6de-6f6a-4e35-a547-25d3a987d089)
+[sample-dashboard](powerbi-dashboard/sample-dashboard.jpeg)
