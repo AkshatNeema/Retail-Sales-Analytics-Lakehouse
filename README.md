@@ -16,7 +16,10 @@ This project demonstrates a modular data lakehouse architecture to simulate real
 ├── data-samples/ → Sample raw data (sales, customers, products)
 ├── glue-scripts/ → PySpark script for ETL
 ├── powerbi-dashboard/ → .pbix Power BI dashboard file
-├── dynamodb/ → Sample schemas for job tracking
+├── dynamodb/ → Sample schemas for job tracking!
+
 ├── athena/ → Example queries
 ├── architecture/ → Architecture diagram
 └── README.md
+
+[sample-dashboard](https://github.com/user-attachments/assets/d6f0f6de-6f6a-4e35-a547-25d3a987d089)
