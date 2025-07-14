@@ -1,0 +1,7 @@
+Contains MetaData of Files to track record 
+
+    FileName,
+    FileType,
+    FileArrivalTime,
+    FileStatus,
+    SourceBucket

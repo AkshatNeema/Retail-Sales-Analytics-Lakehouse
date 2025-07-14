@@ -1,20 +1,22 @@
-🧾 Retail Sales Analytics Lakehouse
-This project demonstrates a scalable AWS Lakehouse architecture for processing and analyzing retail sales data using Glue, S3, Redshift, and Delta Lake format. It includes both batch and simulated streaming pipelines, data quality checks, and metadata management.
+# 🏬 Retail Data Lakehouse PoC using AWS Glue, Athena, DynamoDB, and Power BI
 
-Tech Stack: Python, AWS Glue, AWS Lambda, AWS S3, Redshift, DynamoDB, PySpark, Kinesis, Lake Formation
+This project demonstrates a modular data lakehouse architecture to simulate real-time and batch processing of sales data using AWS.
 
-📌 Features:
-Batch ETL pipeline using AWS Glue and S3
+## 📌 Architecture Overview
 
-Simulated streaming ingestion using Kinesis + Firehose
+- **Data Ingestion**: CSV files uploaded to S3 landing zone
+- **ETL Transformation**: AWS Glue (PySpark)
+- **Cataloging**: AWS Glue Crawlers + Athena
+- **Storage Format**: Partitioned Parquet files
+- **Metadata Tracking**: DynamoDB
+- **Visualization**: Power BI connected to Athena
 
-Delta format for ACID transactions and time-travel queries
+## 📂 Project Structure
 
-Redshift as the serving layer
-
-Metadata governance using AWS Lake Formation
-
-Data validation and quality checks using PySpark
-
-Visual analytics using Amazon Quicksight
-
+├── data-samples/ → Sample raw data (sales, customers, products)
+├── glue-scripts/ → PySpark script for ETL
+├── powerbi-dashboard/ → .pbix Power BI dashboard file
+├── dynamodb/ → Sample schemas for job tracking
+├── athena/ → Example queries
+├── architecture/ → Architecture diagram
+└── README.md
